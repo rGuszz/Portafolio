@@ -17,29 +17,29 @@ with col2:
     col3, col4, col5, col6, col7 = st.columns([0.03,0.15,0.03, 0.03, 0.3])
 
     with col3:
-        st.image("C:/Users/gusta/Downloads/actuario.png", width=50)
+        st.image("images/actuario.png", width=50)
         
     with col4:
         st.subheader("Estudiante de Actuaría")
 
     with col5:
-        st.image("C:/Users/gusta/Downloads/Escudo-facultad-ciencias-unam-escalable.svg.png", width=53)
+        st.image("images/Escudo-facultad-ciencias-unam-escalable.svg.png", width=53)
     with col6:
-        st.image("C:/Users/gusta/Downloads/Escudo-UNAM-escalable.svg.png", width=49)
+        st.image("images/Escudo-UNAM-escalable.svg.png", width=49)
     with col7:
         st.subheader("Universidad Nacional Autónoma de México")
     
     col8, col9, col10, col11, col12, col13 = st.columns([0.03,0.15,0.03, 0.2, 0.03, 0.1])
     with col8:
-        st.image("C:/Users/gusta/Downloads/llamada-telefonica.png", width=30)
+        st.image("images/llamada-telefonica.png", width=30)
     with col9:
         st.write("5533134149")
     with col10:
-        st.image("C:/Users/gusta/Downloads/correo.png", width=40)
+        st.image("images/correo.png", width=40)
     with col11:
         st.markdown("[gusrodriguezayala@gmail.com](mailto:gusrodriguezayala@gmail.com)",unsafe_allow_html=True)
     with col12:
-        st.image("C:/Users/gusta/Downloads/linkedin.png", width=35)
+        st.image("images/linkedin.png", width=35)
     with col13:
         st.write("[Gustavo Rodríguez Ayala](https://www.linkedin.com/in/gustavo-rodríguez-ayala-08714025b/)")
 
