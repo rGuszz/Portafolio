@@ -9,7 +9,7 @@ col1, col2 = st.columns([0.2,1.2])
 with col1:
     # Agregamos mi imagen
     # Extreaemos la imagen de la carpeta Documents
-    st.image("C:/Users/gusta/Documents/ImagenCV.jpeg", width=200)
+    st.image("images/ImagenCV.jpeg", width=200)
 
 with col2:
     # Agregamos mi nombre
